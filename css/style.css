@@ -6,7 +6,7 @@
 body {
 	font: 16px/28px arial;
 	background-color: #eaeaea;
-	background-image: url(pattern.png);
+	background-image: url(../image/pattern.png);
 	color: #333;
 }
 
@@ -32,7 +32,7 @@ body {
 .facebook {
 	width: 200px;
 	height: 200px;
-	background-image: url(ribbon.png);
+	background-image: url(../image/ribbon.png);
 	background-repeat: no-repeat;
 	display: inline-block;
 	text-indent: -9999;
@@ -75,8 +75,8 @@ h2 {
 }
 
 .hero {
+	background-image: url(../image/hero.jpg);
 	height: 320px;
-	background-image: url(hero.jpg);
 	background-size: cover;
   background-position: 0 -75px;
 	border-bottom: 4px solid yellow;
